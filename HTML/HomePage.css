@@ -1,0 +1,65 @@
+ul {
+  position: relative;
+  top: auto;
+  font-size: 100%;
+}
+li a:hover {
+  background-color: lightgrey;
+  border-radius: 10%;
+  text-decoration: none !important;
+  color: black !important;
+}
+.navbar-toggler {
+  background-color: darkgrey !important;
+}
+body {
+}
+#navlogo {
+  width: 50%;
+}
+
+.navtext {
+  color: black;
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.nav.navbar-nav li a {
+   color: #fff;
+ }
+#imgdiv {
+  width: 100%;
+margin: auto;
+border-radius: 0 0 20% 20%;
+z-index: -1;
+filter: blur(3px);
+}
+
+.firstDiv {
+  position: relative;
+  text-align: center;
+
+}
+.checkboxs {
+  position: relative;
+  left: 0;
+  font-family:'Blinker', sans-serif;
+}
+
+.points {
+position: absolute;
+left: 15% !important;
+font-size: 70% !important;
+}
+
+
+.textoverimg {
+  position: absolute;
+  text-align: center;
+  font-size: 4vw;
+  color: white;
+  top: 50%;
+  left: 50%;
+  font-family: 'Blinker', sans-serif;
+  transform: translate(-50%, -50%);
+  -webkit-text-stroke: 0.5px black;
+}

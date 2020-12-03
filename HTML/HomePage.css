@@ -1,65 +1,137 @@
-ul {
-  position: relative;
-  top: auto;
-  font-size: 100%;
-}
+
 li a:hover {
   background-color: lightgrey;
-  border-radius: 10%;
-  text-decoration: none !important;
-  color: black !important;
-}
-.navbar-toggler {
-  background-color: darkgrey !important;
-}
+  border-radius: 10px;
+  color: black;
+  text-decoration:none;}
 body {
+  background-color: #14274e;}
+.navbar {
+  min-height: 90px;}
+
+.navbar-toggler {
+  background-color: darkgrey;
 }
 #navlogo {
-  width: 50%;
-}
-
+  width: 50%;}
 .navtext {
   color: black;
   display: block;
   padding: 0.5rem 1rem;
 }
 .nav.navbar-nav li a {
-   color: #fff;
- }
-#imgdiv {
-  width: 100%;
-margin: auto;
-border-radius: 0 0 20% 20%;
-z-index: -1;
-filter: blur(3px);
-}
-
-.firstDiv {
+  color: #fff;}
+.imgB {
   position: relative;
-  text-align: center;
-
-}
-.checkboxs {
-  position: relative;
+  right: 0;
   left: 0;
-  font-family:'Blinker', sans-serif;
-}
-
-.points {
-position: absolute;
-left: 15% !important;
-font-size: 70% !important;
-}
-
-
-.textoverimg {
-  position: absolute;
+  margin-top: 70px;
+  border-radius: 0 0 125px 125px;
+  background-size: contain;
+  height: 46vw;
+  background-image: url("\hotelimg1.jpg");
+  text-align: center;}
+button.mfp-close {
+    background-color: white !important;
+    right: 20%;
+  border-radius: 50%;}
+#noblur {
+  position: relative;
+  top: 8vw;
+  font-family: 'Heebo';
+  text-decoration: none;
+  padding: 3px 13px 3px 13px;
+  border: double 6px lightgrey;
+  border-radius: 13px 13px 13px 13px;
   text-align: center;
-  font-size: 4vw;
+  background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
   color: white;
-  top: 50%;
-  left: 50%;
-  font-family: 'Blinker', sans-serif;
-  transform: translate(-50%, -50%);
-  -webkit-text-stroke: 0.5px black;
-}
+  font-size: 2vw;}
+.content {
+text-align: center;}
+.mfp-hide {
+  display: none !important;}
+iframe {
+  margin-left:20%;}
+#noblur:hover {
+  color: lightgrey;}
+.Circle{
+  position: relative;
+  border: solid 3px lightgrey;
+  height: 15vw;
+  width: 15vw;
+  top: 17vw;
+  border-radius: 50%;
+  display: inline-table;
+  margin: 20px;
+  background-color: rgba(0,0,0, 0.5);
+  text-align: center;}
+.Textincircle {
+  position: relative;
+  top: 25%;
+  font-size: 1vmax;}
+.Textround {
+  color: white;
+  font-size: 1.5vw;
+  font-family: 'Heebo';}
+.Textround:hover {
+  color: lightgrey;
+  text-decoration: none;}
+.circle:hover{
+  border:solid white 10px;}
+.fa-coins {
+  font-size: 3.2vw;
+  color: gold;}
+.fa-leaf {
+  font-size: 3.2vw;
+  color: lightgreen;}
+.fa-users{
+  font-size: 3.2vw;
+  color:lightblue;}
+.SecondDiv {
+  padding-bottom: 2vw;
+  padding-top: 2vw;}
+.UxImg {
+  position: relative;
+  height: 27vw;
+  width: auto;
+  left: 25%;
+  }
+#UxTxt {
+  position: relative;
+  color: white;
+  top: 2vw;
+  font-family: 'Heebo';
+  font-size: 2vw;}
+p {
+  color: white;
+  position: relative;
+  top: 2vw;
+  font-family: 'Heebo';
+  font-size: 1vw;}
+.fa-play-circle{
+  padding-left: 13px;}
+.myButton {
+  box-shadow:inset -50px 50px 25px 18px #30B700;
+  background:linear-gradient(to bottom, #30B700 5%, #30B700 100%);
+  background-color:#30B700 !important;
+  border-radius:10px;
+  display:inline-block;
+  cursor:pointer;
+  position: relative;
+  top: 2vw;
+  color:#ffffff;
+  right: 20% !important;
+  margin:25px 0 15px 25%;
+  font-family: 'Heebo';
+  font-size:16px;
+  padding:15px 70px;
+  text-decoration:none;
+  text-shadow:0px 0px 15px #263666;}
+.myButton:hover {
+  text-decoration:none;
+  background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color:#0688fa;}
+.myButton:active {
+  position:relative;
+  bottom: 1px;}

@@ -228,17 +228,21 @@ p {
     font-size: 1.2rem;
   }
   .circles-area {
-    padding-top: 40px;
+    padding-top: 25px;
   }
   .py-space {
-      padding: 100px 0 140px;
+    padding: 80px 0 140px;
   }
   .Textround span {
-      font-size: 18px;
+      font-size: 17px;
       line-height: 22px;
   }
   #UxTxt {
       font-size: 25px;
+      text-align: center;
+  }
+  .SecondDiv p {
+    text-align: center;
   }
   .UxImg {
       height: 80vw;
@@ -260,5 +264,14 @@ p {
   button.mfp-close {
     right: 0;
     margin-top: -50px;
+  }
+  .Circle {
+    margin: 5px 15px;
+    height: 170px;
+    width: 170px;
+  }
+  .myButton {
+    right: 0 !important;
+    margin: 35px 0 30px;
   }
 }

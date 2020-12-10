@@ -34,60 +34,85 @@ body {
 button.mfp-close {
     background-color: white !important;
     right: 20%;
-  border-radius: 50%;}
-#noblur {
-  position: relative;
-  top: 8vw;
-  font-family: 'Heebo';
-  text-decoration: none;
+  border-radius: 50%;
+}
+.intro-title {
   padding: 3px 13px 3px 13px;
   border: double 6px lightgrey;
+  display: inline-block;
   border-radius: 13px 13px 13px 13px;
-  text-align: center;
   background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
+}
+#noblur {
+  position: relative;
+  font-family: 'Heebo';
+  text-decoration: none;
+  text-align: center;
   color: white;
-  font-size: 2vw;}
+  font-size: 2.3rem;
+}
 .content {
-text-align: center;}
+text-align: center;
+}
 .mfp-hide {
   display: none !important;}
 iframe {
   margin-left:20%;}
 #noblur:hover {
   color: lightgrey;}
+.circles-area {
+  padding-top: 120px;
+}
 .Circle{
   position: relative;
   border: solid 3px lightgrey;
-  height: 15vw;
-  width: 15vw;
-  top: 17vw;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   display: inline-table;
-  margin: 20px;
+  margin: 20px 30px;
   background-color: rgba(0,0,0, 0.5);
   text-align: center;}
 .Textincircle {
-  position: relative;
-  top: 25%;
-  font-size: 1vmax;}
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+}
 .Textround {
   color: white;
-  font-size: 1.5vw;
-  font-family: 'Heebo';}
+  font-family: 'Heebo';
+}
+.Textround span {
+    display: block;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 0 18px;
+}
 .Textround:hover {
   color: lightgrey;
   text-decoration: none;}
 .circle:hover{
   border:solid white 10px;}
+.Textincircle i {
+    font-size: 55px;
+    margin-bottom: 14px;
+}
+.Textround span {
+    display: block;
+}
 .fa-coins {
-  font-size: 3.2vw;
-  color: gold;}
+  color: gold;
+}
 .fa-leaf {
-  font-size: 3.2vw;
-  color: lightgreen;}
+  color: lightgreen;
+}
 .fa-users{
-  font-size: 3.2vw;
-  color:lightblue;}
+  color:lightblue;
+}
 .SecondDiv {
   padding-bottom: 2vw;
   padding-top: 2vw;}
@@ -98,17 +123,19 @@ iframe {
   left: 25%;
   }
 #UxTxt {
-  position: relative;
-  color: white;
-  top: 2vw;
-  font-family: 'Heebo';
-  font-size: 2vw;}
+    position: relative;
+    color: white;
+    font-family: 'Heebo';
+    font-size: 40px;
+    margin-bottom: 22px;
+    display: block;
+}
 p {
   color: white;
   position: relative;
-  top: 2vw;
   font-family: 'Heebo';
-  font-size: 1vw;}
+  font-size: 1.2rem;
+}
 .fa-play-circle{
   padding-left: 13px;}
 .myButton {
@@ -119,10 +146,9 @@ p {
   display:inline-block;
   cursor:pointer;
   position: relative;
-  top: 2vw;
   color:#ffffff;
   right: 20% !important;
-  margin:25px 0 15px 25%;
+  margin:35px 0 15px 25%;
   font-family: 'Heebo';
   font-size:16px;
   padding:15px 70px;
@@ -135,3 +161,104 @@ p {
 .myButton:active {
   position:relative;
   bottom: 1px;}
+
+/*=========Fixes===========*/
+.py-space {
+  padding: 120px 0 160px;
+}
+
+/*=========Responsive==========*/
+
+@media(max-width: 1440px) {
+  .Circle {
+    height: 220px;
+    width: 220px;
+  }
+  .Textincircle i {
+    font-size: 45px;
+  }
+  .Textround span {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@media(max-width: 1366px) {
+  .circles-area {
+    padding-top: 80px;
+  }
+  iframe {
+    margin-left:0;
+  }
+}
+
+@media(max-width: 980px) {
+  #noblur {
+    font-size: 1.6rem;
+  }
+  .Circle {
+    height: 180px;
+    width: 180px;
+    margin: 10px 15px;
+  }
+  .imgB {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 56vw;
+  }
+  #UxTxt {
+    font-size: 30px;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .UxImg {
+    height: 60vw;
+  }
+}
+
+@media(max-width: 480px) {
+  .navbar-dark .navbar-brand {
+    max-width: 80%;
+  }
+  .imgB {
+    height: 100vh;
+  }
+   #noblur {
+    font-size: 1.2rem;
+  }
+  .circles-area {
+    padding-top: 40px;
+  }
+  .py-space {
+      padding: 100px 0 140px;
+  }
+  .Textround span {
+      font-size: 18px;
+      line-height: 22px;
+  }
+  #UxTxt {
+      font-size: 25px;
+  }
+  .UxImg {
+      height: 80vw;
+  }
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100% !important;
+    width: 100% !important;
+  }
+  #videostory {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+    max-width: unset !important;
+  }
+  button.mfp-close {
+    right: 0;
+    margin-top: -50px;
+  }
+}

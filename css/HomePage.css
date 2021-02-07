@@ -576,4 +576,16 @@ p {
     padding: 0 0px;
     text-align: left;
   }
+    .partnerlogos {
+    position: relative;
+    padding: 0;
+    margin-top: 100px;
+  }
+  #anyapp  {
+    margin: 40px 0 40px 0;
+    padding: 0;
+  }
+  #startplan {
+    margin: 0;
+  }
 }

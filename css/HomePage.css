@@ -10,15 +10,13 @@ body {
   min-height: 90px;}
 
 .navbar-toggler {
-  background-color: darkgrey;
-}
+  background-color: darkgrey;}
 #navlogo {
   width: 50%;}
 .navtext {
   color: black;
   display: block;
-  padding: 0.5rem 1rem;
-}
+  padding: 0.5rem 1rem;}
 .nav.navbar-nav li a {
   color: #fff;}
 .imgB {
@@ -34,8 +32,8 @@ body {
 button.mfp-close {
     background-color: white !important;
     right: 20%;
-  border-radius: 50%;
-}
+  border-radius: 50%;}
+
 .intro-title {
   padding: 3px 13px 3px 13px;
   border: double 6px lightgrey;
@@ -52,8 +50,7 @@ button.mfp-close {
   font-size: 2.3rem;
 }
 .content {
-text-align: center;
-}
+  text-align: center;}
 .mfp-hide {
   display: none !important;}
 iframe {
@@ -61,8 +58,22 @@ iframe {
 #noblur:hover {
   color: lightgrey;}
 .circles-area {
-  padding-top: 120px;
+  padding-top: 180px;
 }
+.partnerlogos {
+  position: relative;
+  padding: 120px 300px 100px 200px;
+}
+#anyapp{
+  position: relative;
+  height: 120px;
+  width: 360px;
+  margin-left: 120px;}
+
+#startplan {
+  position: relative;
+  margin-right: 140px;}
+
 .Circle{
   position: relative;
   border: solid 3px lightgrey;
@@ -73,15 +84,6 @@ iframe {
   margin: 20px 30px;
   background-color: rgba(0,0,0, 0.5);
   text-align: center;}
-.Textincircle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-}
 .Textround {
   color: white;
   font-family: 'Heebo';
@@ -100,6 +102,7 @@ iframe {
 .Textincircle i {
     font-size: 55px;
     margin-bottom: 14px;
+    padding-top: 20%;
 }
 .Textround span {
     display: block;
@@ -118,7 +121,7 @@ iframe {
   padding-top: 2vw;}
 .UxImg {
   position: relative;
-  height: 27vw;
+  height: 35vw;
   width: auto;
   left: 25%;
   }
@@ -129,12 +132,14 @@ iframe {
     font-size: 40px;
     margin-bottom: 22px;
     display: block;
+    margin-left: 25px;
 }
 p {
   color: white;
   position: relative;
   font-family: 'Heebo';
   font-size: 1.2rem;
+  margin-left: 25px;
 }
 .fa-play-circle{
   padding-left: 13px;}
@@ -161,15 +166,145 @@ p {
 .myButton:active {
   position:relative;
   bottom: 1px;}
+.slideSection {
+  background-color: snow;
+  width: 100%;}
+.slidDiv{
+  border-top: solid black 5px;
+  border-bottom:  solid black 5px;
+  height: auto;}
+#lenImg {
+  object-fit: cover;
+  object-position:0 -360px;
+  height: 700px;}
+.partnerDiv {
+  height: auto;
+  text-align: center;
+  background-color: #14274e;}
+#partnerHtxt {
+  display: inline-block;
+  color: white;
+  position: relative;
+  top: 50px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Heebo';
+  text-transform: uppercase;}
+.txtSlidH {
+  position: absolute;
+  top: 60px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  left: 180px;
+  color: black;
+  font-family: 'Heebo';
+  font-weight: bold;
+  font-size: 80px;}
+
+.txtSlidB {
+  position: absolute;
+  margin-right: 900px;
+  top: 230px;
+  left: 180px;
+  color: black;
+  font-family: 'Heebo';
+  font-size: 40px;
+  z-index: 2;}
+.txtbrkslide {
+  position: absolute;
+  margin-right: 900px;
+  top: 230px;
+  left: 180px;
+  color: black;
+  font-family: 'Heebo';
+  font-size: 40px;
+  z-index: 2;}
+#RewardTxth {
+  color: white;
+  position: relative;
+  display: block;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Heebo';
+  text-transform: uppercase;
+}
+.RewardTxt {
+position: relative;
+line-height: 2;
+padding-right: 85px;
+
+}
+.Stars {
+  display: block;
+  width: 700px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  position: relative;
+  left: 19%;
+}
+.RewardContent{
+  display: inline;
+}
+.SurveyImg {
+  position: relative;
+  border-radius: 30px 15px 5px 30px;
+  width: 150px;
+  float: left;
+  margin-right: 15px;
+  margin-left: 25px;
+}
+  .txtmalslide {
+    position: absolute;
+    margin-right: 900px;
+    top: 230px;
+    left: 180px;
+    color: white;
+    font-family: 'Heebo';
+    font-size: 40px;
+    z-index: 2;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.5);
+  border-radius: 10% 10%;}
+#lenUXimg {
+  max-width: 20%;
+  max-height: 95%;
+  position: absolute;
+  right: 300px;
+  transform: rotate(10deg);
+  top: 180px;
+  z-index: 1;}
+#breakfastImg {
+  object-fit: cover;
+  height: 700px;}
+
+  .RewardSec {
+    border-bottom: solid gold 5px;
+    width: 100%;
+  }
 
 /*=========Fixes===========*/
 .py-space {
-  padding: 120px 0 160px;
-}
+  padding: 120px 0 160px;}
 
 /*=========Responsive==========*/
 
 @media(max-width: 1440px) {
+
+  .circles-area {
+    padding-top: 0px;
+  }
+
+  #lenImg {
+    object-fit: cover;
+    object-position: 0 -160px;
+    height: 500px;}
+  #breakfastImg{
+    height: 500px;}
+  #lenUXimg {
+    right: 150px;
+    top: 130px;}
   .Circle {
     height: 220px;
     width: 220px;
@@ -181,18 +316,176 @@ p {
     font-size: 20px;
     line-height: 25px;
   }
-}
+  .txtSlidB {
+    margin-right: 500px;
+    top: 160px;
+    font-size: 30px;}
 
-@media(max-width: 1366px) {
+    .txtbrkslide {
+      margin-right: 500px;
+      top: 160px;
+      font-size: 30px;}
+
+  .txtmalslide {
+        margin-right: 500px;
+        top: 160px;
+        padding: 5px 7px;
+        font-size: 30px;}
+  .txtSlidH {
+    position: absolute;
+    top: 90px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    left: 170px;
+    color: black;
+    font-family: 'Heebo';
+    font-weight: bold;
+    font-size: 40px;}
+
+    }
+
+@media (max-width: 1280px) {
+  #lenImg {
+    object-fit: cover;
+    object-position: 0 -50px;
+  }
+  #lenUXimg {
+    transform: none;
+    height: 45vw;
+    top: 180px;}
+
   .circles-area {
-    padding-top: 80px;
-  }
+    padding-top: 0px;}
+    .txtSlidH {
+      position: absolute;
+      top: 160px;
+      text-decoration: underline;
+      text-transform: uppercase;
+      left: 150px;
+      color: black;
+      font-family: 'Heebo';
+      font-weight: bold;
+      font-size: 40px;}
+
+    .txtSlidB {
+      position: absolute;
+      top: 230px;
+      left: 110px;
+      margin-right: 490px;
+      line-height: 200%;
+      color: black;
+      font-family: 'Heebo';
+      font-size: 1.6rem;
+      z-index: 2;
+      font-weight: normal;}
+
+    .txtbrkslide {
+      position: absolute;
+      top: 230px;
+      left: 110px;
+      margin-right: 490px;
+      line-height: 200%;
+      color: black;
+      font-family: 'Heebo';
+      font-size: 1.6rem;
+      z-index: 2;
+      font-weight: bold;}
+
+      .txtmalslide {
+        position: absolute;
+        top: 230px;
+        left: 110px;
+        margin-right: 490px;
+        line-height: 200%;
+        color: white;
+        font-family: 'Heebo';
+        font-size: 1.6rem;
+        z-index: 2;
+        font-weight: bold;}
+
   iframe {
-    margin-left:0;
-  }
+    margin-left:0;}
+    .circles-area {
+      padding-top: 0;}
+
 }
 
-@media(max-width: 980px) {
+@media(max-width: 1024px){
+
+  .Stars {
+    left: 10%;
+  }
+  .SurveyImg {
+    margin-top: 15px;
+    left: 5%;
+  }
+  .RewardTxt {
+    left: 5%;
+    padding-right: 15%;
+  }
+  .circles-area {
+    padding-top: 0;
+  }
+  #lenUXimg {
+    z-index: -1;
+    visibility: hidden;}
+
+  .txtSlidH {
+    float: none;
+    left: auto;
+    top: 15%;
+    right: 30%;
+    text-align: center;}
+
+    #lenImg {
+      object-position: 0 -20px;
+    }
+
+  .ulslide {
+    text-align: left;}
+  .txtSlidH {
+    text-align: center;
+    top: 20px;}
+  .txtSlidB {
+    left: 150px;
+    font-weight: bold;
+    width: 70%;
+    float: none;
+    top: 100px;
+    bottom: 20px;
+    line-height: 2;
+    font-size: 1.7rem;
+    padding: 20px 50px 0 20px;
+    text-align: left;
+    border: solid black 3px;
+    border-radius: 5%;}
+
+    .txtbrkslide {
+      left: auto;
+      right: auto;
+      float: none;
+      top: 80px;
+      line-height: 2;
+      margin: 0 50px;
+      font-size: 1.9rem;
+      padding: 0 50px;
+      text-align: left;
+      border: solid black 3px;
+      border-radius: 5%;}
+
+      .txtmalslide {
+        left: auto;
+        right: auto;
+        float: none;
+        top: 80px;
+        line-height: 2;
+        margin: 0 50px;
+        font-size: 1.9rem;
+        padding: 0 50px;
+        text-align: left;
+        border: solid black 3px;
+        border-radius: 5%;}
+
   #noblur {
     font-size: 1.6rem;
   }
@@ -215,27 +508,69 @@ p {
   .UxImg {
     height: 60vw;
   }
+  #anyapp {
+    margin-left: 0;
+  }
+
 }
 
 @media(max-width: 480px) {
-  .navbar-dark .navbar-brand {
+    .navbar-dark .navbar-brand {
     max-width: 80%;
   }
-  .imgB {
+    .imgB {
     height: 100vh;
   }
    #noblur {
-    font-size: 1.2rem;
-  }
-  .circles-area {
+    font-size: 1.2rem;}
+   .circles-area {
     padding-top: 25px;
+    display: inline-grid;
   }
+   #lenImg {
+    filter: blur(2px);
+    object-fit: cover;
+    object-position: 0 0 ;
+    height: 500px;}
+   #breakfastImg {
+     filter: blur(2px);
+     object-fit: cover;
+     object-position: 0 0 ;
+     height: 500px;}
+  .slide1text{
+    border: solid black 2px;
+    border-radius: 5%;}
+  .txtSlidB {
+    left: 20px;
+    top: 120px;
+    right: auto;
+    float: none;
+    line-height: 1.7;
+    margin: 0 50px;
+    font-size: 21px;
+    padding: 0 0px;
+    text-align: left;
+    bottom: 135px;
+    padding-left: 5px;
+  }
+  .txtSlidH {
+    font-size: 30px;
+    top: 60px;
+    float: none;
+    padding: 0;
+    right: 0;
+    left: 0;
+    text-align: center;}
   .py-space {
     padding: 80px 0 140px;
   }
   .Textround span {
       font-size: 17px;
       line-height: 22px;
+  }
+  .ulslide {
+    padding-top: 5px;
+    text-align: left;
   }
   #UxTxt {
       font-size: 25px;
@@ -266,12 +601,50 @@ p {
     margin-top: -50px;
   }
   .Circle {
-    margin: 5px 15px;
+    margin: 15px 15px;
     height: 170px;
     width: 170px;
   }
   .myButton {
     right: 0 !important;
     margin: 35px 0 30px;
+  }
+  .txtbrkslide {
+    left: auto;
+    top: 120px;
+    right: auto;
+    float: none;
+    line-height: 1.7;
+    margin: 0 50px;
+    font-size: 21px;
+    padding: 0 0px;
+    text-align: left;
+  }
+  .txtmalslide {
+    left: auto;
+    top: 120px;
+    right: auto;
+    float: none;
+    line-height: 1.7;
+    margin: 0 50px;
+    font-size: 21px;
+    padding: 0 0px;
+    text-align: left;
+  }
+  .partnerlogos {
+    position: relative;
+    padding: 0;
+    margin-top: 100px;
+  }
+  #anyapp  {
+    margin: 40px 0 40px 0;
+    padding: 0;
+  }
+  #startplan {
+    margin: 0;
+  }
+  .Stars {
+    width: 400px;
+    left: 7%;
   }
 }

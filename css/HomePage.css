@@ -8,7 +8,9 @@ body {
   background-color: #14274e;}
 .navbar {
   min-height: 90px;}
-
+.fixed-top {
+  padding: 0 150px 0 150px;
+}
 .navbar-toggler {
   background-color: darkgrey;}
 #navlogo {
@@ -25,10 +27,11 @@ body {
   left: 0;
   margin-top: 70px;
   border-radius: 0 0 125px 125px;
-  background-size: contain;
+  background-size: cover;
   height: 46vw;
   background-image: url("../images/hotelimg1.jpg");
   text-align: center;}
+
 button.mfp-close {
     background-color: white !important;
     right: 20%;
@@ -345,6 +348,10 @@ padding-right: 85px;
     }
 
 @media (max-width: 1280px) {
+
+  .fixed-top {
+    padding: 0 10px 0 10px;
+  }
   #lenImg {
     object-fit: cover;
     object-position: 0 -50px;
@@ -516,7 +523,14 @@ padding-right: 85px;
 
 @media(max-width: 480px) {
     .navbar-dark .navbar-brand {
-    max-width: 80%;
+    max-width: 75%;
+  }
+  #anyapp{
+    width:100%;
+  }
+
+  .bodyclass {
+    margin-left: 15px;
   }
     .imgB {
     height: 100vh;
@@ -541,7 +555,7 @@ padding-right: 85px;
     border: solid black 2px;
     border-radius: 5%;}
   .txtSlidB {
-    left: 20px;
+    left: 0px;
     top: 120px;
     right: auto;
     float: none;
@@ -550,7 +564,7 @@ padding-right: 85px;
     font-size: 21px;
     padding: 0 0px;
     text-align: left;
-    bottom: 135px;
+    bottom: 100px;
     padding-left: 5px;
   }
   .txtSlidH {
@@ -644,26 +658,38 @@ padding-right: 85px;
     margin: 0;
   }
   .Stars {
-    width: 400px;
-    left: 7%;
+    width: 100%;
+    left: auto;
   }
 }
 
 @media (max-width: 410px) {
   .imgB {
-    width: 110%;
+    width: 100%;
   }
-  .UxImg {
+ /* .UxImg {
     left: 30%;
+  }*/
+  #UxTxt{
+    margin-top: 135px;
+  }
+  .RewardTxt{
+    padding-right: 0%;
+    left: 0%;
+    margin-left: 0px;
+  }
+  .SurveyImg{
+    margin-left: 0px;
+    left: 0%;
   }
   .myButton {
     left: 5%;
   }
   .slideSection {
-    width: 110%;}
+    width: 100%;}
   .Stars {
     left: 1%
   }
   .RewardSec {
-    width: 110%;
+    width: 100%;}
 }

@@ -23,9 +23,7 @@ body {
   color: #fff;}
 .imgB {
   position: relative;
-  right: 0;
-  left: 0;
-  margin-top: 70px;
+  margin: 70px 50px 0 50px;
   border-radius: 0 0 125px 125px;
   background-size: cover;
   height: 46vw;
@@ -297,6 +295,9 @@ padding-right: 85px;
 
   .circles-area {
     padding-top: 0px;
+  }
+  .imgB{
+      margin: 35px 0 25px 0;
   }
 
   #lenImg {

@@ -14,9 +14,10 @@ body {
 .ceo {
   display: none;
   width: 100%;
-  height: 1000px;
+  height: 700px;
   transition: all .5s ease-in-out;
   overflow: hidden;
+  border-bottom: solid gold 3px;
 }
 .ceoTxt{
   display: inline-block;
@@ -722,4 +723,23 @@ padding-right: 85px;
   }
   .RewardSec {
     width: 100%;}
+}
+
+
+.hiddenDiv {
+    height: 0px;
+    -webkit-transition: height 0.5s linear;
+       -moz-transition: height 0.5s linear;
+        -ms-transition: height 0.5s linear;
+         -o-transition: height 0.5s linear;
+            transition: height 0.5s linear;
+}
+
+.hiddenDivOpen {
+     height: 1000px;
+     -webkit-transition: height 0.5s linear;
+        -moz-transition: height 0.5s linear;
+         -ms-transition: height 0.5s linear;
+          -o-transition: height 0.5s linear;
+             transition: height 0.5s linear;
 }
